@@ -11,11 +11,11 @@ ${reset}
 //Fonts
 
 *, *:before,*:after{
-box-sizing:border-box;
+  box-sizing: border-box
 
 }
 html{
-  box-sizing:border-box;
+
   scroll-behavior:smooth;
   height:100%;
 }
