@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import NavigationItems from "./NavigationItems/navigationItems";
 import logo from "../../images/offers.gif";
-const NavBar = styled.div`
+const NavBar = styled.header`
   position: sticky;
   top: 0;
   z-index: 100;

@@ -3,7 +3,7 @@ import styled from "styled-components";
 import CopyrightQuote from "./footerItems/CopyrightQuote";
 import Social from "./footerItems/Social";
 
-const StyledFooter = styled.div`
+const StyledFooter = styled.footer`
   position: absolute;
   bottom: 0;
   left: 0;

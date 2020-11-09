@@ -8,7 +8,7 @@ const Video = styled.iframe`
 function HomeVideo() {
   return (
     <Video
-      src="https://www.youtube.com/embed/K3RNFf4KYcw"
+      src="https://www.youtube.com/embed/Lv6iQW2s7So"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
