@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import NavigationItems from "./NavigationItems/navigationItems";
-import logo from "../../images/offers.gif";
+import logo from "../../images/logo.png";
 const NavBar = styled.header`
   position: sticky;
   top: 0;
@@ -16,11 +16,21 @@ const NavBar = styled.header`
 const Logo = styled.img`
   width: 50px;
 `;
+const LogoContainer = styled.div`
+  display: flex;
+  width: 200px;
+  font-size: 1.2rem;
+  align-items: center;
+`;
 
 function Navigation() {
   return (
     <NavBar>
-      <Logo src={logo} alt="logo" />
+      <LogoContainer>
+        <Logo src={logo} alt="logo" />
+        Course NATION
+      </LogoContainer>
+
       <NavigationItems />
     </NavBar>
   );

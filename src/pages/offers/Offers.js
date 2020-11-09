@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { Card } from "../../elements";
+
 import CourseCard from "./components/CourseCard";
 import CourseTable from "./components/CourseTable";
 const StyledOffers = styled.div`

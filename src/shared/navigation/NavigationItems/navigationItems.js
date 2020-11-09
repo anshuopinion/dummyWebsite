@@ -10,9 +10,9 @@ const StyledNavigationItems = styled.ul`
 `;
 
 const navData = [
-  { link: "", page: "Home" },
-  { link: "about", page: "About" },
-  { link: "offers", page: "Offers" },
+  { link: "/", page: "Home", exact: true },
+  { link: "/about", page: "About" },
+  { link: "/offers", page: "Offers" },
 ];
 function navigationItems() {
   return (
@@ -22,6 +22,7 @@ function navigationItems() {
           link={navItem.link}
           page={navItem.page}
           key={navItem.page}
+          exact={navItem.exact}
         />
       ))}
     </StyledNavigationItems>

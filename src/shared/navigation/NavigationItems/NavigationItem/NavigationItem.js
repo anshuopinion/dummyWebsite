@@ -1,11 +1,25 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 const StyledNavigationItem = styled.li``;
-function NavigationItem({ link, page }) {
+const StyledLink = styled(NavLink)`
+  color: inherit;
+  padding: 0.8rem;
+  text-decoration: none;
+  &:hover,
+  &:active,
+  &.active {
+    background: yellow;
+    color: #000;
+  }
+`;
+
+function NavigationItem({ link, page, exact }) {
   return (
     <StyledNavigationItem>
-      <Link to={`${link}`}>{page}</Link>
+      <StyledLink to={`${link}`} exact={exact}>
+        {page}
+      </StyledLink>
     </StyledNavigationItem>
   );
 }
