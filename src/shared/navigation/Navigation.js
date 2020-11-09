@@ -8,6 +8,7 @@ const NavBar = styled.div`
   justify-content: space-around;
   height: 3rem;
   background-color: ${(props) => props.theme.color.main};
+  position: sticky;
 `;
 const Logo = styled.img`
   width: 50px;

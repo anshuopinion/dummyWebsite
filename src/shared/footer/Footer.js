@@ -7,6 +7,7 @@ const StyledFooter = styled.div`
   position: absolute;
   bottom: 0;
   left: 0;
+
   background-color: ${(props) => props.theme.color.dark};
   width: 100%;
   color: ${(props) => props.theme.color.light};

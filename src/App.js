@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 import GlobalStyle from "./theme/globalStyles";
 import { ThemeProvider } from "styled-components";
 import theme from "./theme/theme";
@@ -9,6 +10,7 @@ import About from "./pages/about/About";
 import Offers from "./pages/offers/Offers";
 import Navigation from "./shared/navigation/Navigation";
 import Footer from "./shared/footer/Footer";
+
 function App() {
   return (
     <StylesProvider injectFirst>
@@ -19,7 +21,7 @@ function App() {
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/about" exact component={About} />
-            <Route path="/offers" exact component={Offers} />
+            <Route path="/offers" exact component={Offers} />       
           </Switch>
           <Footer />
         </Router>
