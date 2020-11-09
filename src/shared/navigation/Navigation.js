@@ -3,6 +3,9 @@ import styled from "styled-components";
 import NavigationItems from "./NavigationItems/navigationItems";
 import logo from "../../images/offers.gif";
 const NavBar = styled.div`
+  position: sticky;
+  top: 0;
+  z-index: 100;
   display: flex;
   align-items: center;
   justify-content: space-around;
