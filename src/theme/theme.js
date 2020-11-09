@@ -2,7 +2,7 @@ const theme = {
   font: {
     rosario: "'Rosario', sans-serif",
   },
-  color: {main:"#fadb11"},
+  color: { main: "#fadb11", dark: "#000" ,light:"#fff"},
 
   breakpoints: {
     phone: "only screen and (max-width:320px)",

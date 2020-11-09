@@ -8,6 +8,7 @@ import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 import Offers from "./pages/offers/Offers";
 import Navigation from "./shared/navigation/Navigation";
+import Footer from "./shared/footer/Footer";
 function App() {
   return (
     <StylesProvider injectFirst>
@@ -20,6 +21,7 @@ function App() {
             <Route path="/about" exact component={About} />
             <Route path="/offers" exact component={Offers} />
           </Switch>
+          <Footer />
         </Router>
       </ThemeProvider>
     </StylesProvider>
